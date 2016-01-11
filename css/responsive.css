@@ -1,0 +1,135 @@
+@media (max-width:1265px) {
+  #fullName {
+    width: 50%;
+    margin-left: -.75%;
+  }
+}
+@media (max-width:1220px) {
+  .email {
+    margin-top: -8%;
+  }
+  #fullName {
+    margin-left: 1%;
+  }
+  #fee {
+    margin-left: 8%;
+  }
+}
+@media (max-width:1211px) {
+  #aboutMe {
+    width: 21%;
+  }
+}
+@media (max-width:1211px) {
+  #aboutMe {
+    width: 25%;
+  }
+}
+@media (max-width:1000px) {
+  #fullName {
+    margin-left: 2%;
+  }
+}
+@media (max-width:991px) {
+  .email {
+    margin-top: -20%;
+  }
+  #fullName {
+    width: 45%;
+    margin-left: 5%;
+  }
+  #fee {
+    width: 40%;
+    margin-left: 5%;
+  }
+}
+@media (max-width:991px) {
+  #aboutMe {
+    width: 30%;
+  }
+}
+@media (max-width:843px) {
+  #fullName {
+    margin-left: -4%;
+    margin-bottom: -2%;
+  }
+  #fee {
+    display: none;
+  }
+  .email, .phone {
+    display: none;
+  }
+  #section1Nav {
+    margin-right: 3%;
+  }
+  #iconList {
+    margin-top: -13%;
+    margin-left: 40%;
+    font-size: 2rem;
+  }
+}
+@media (max-width:807px) {
+  #aboutMe {
+    width: 35%;
+  }
+  #headShot {
+    margin-right: 5%;
+    margin-top: -12%;
+    width: 15%;
+  }
+  #iconList {
+    margin-left: 40%;
+    margin-top: -15%;
+    font-size: 2rem;
+  }
+}
+@media (max-width:750px) {
+  #iconList {
+    margin-top: -21%;
+  }
+}
+@media (max-width:692px) {
+  #aboutMe {
+    width: 40%;
+  }
+  #iconList {
+    margin-top: -23%;
+  }
+}
+@media (max-width:630px) {
+  #iconList {
+    margin-top: -29%;
+  }
+}
+@media (max-width:605px) {
+  #aboutMe {
+    width: 45%;
+  }
+  #headShot {
+    width: 20%;
+    margin-right: 7%;
+    margin-top: -17%;
+  }
+  #iconList {
+    margin-top: -31%;
+  }
+}
+@media (max-width:320px) {
+  #headShot {
+    display: none;
+  }
+  #aboutMe {
+    width: 77%;
+  }
+  #iconList {
+    font-size: 1em;
+    margin-top: -82%;
+    margin-left: 59%;
+  }
+  #fullName {
+    margin-left: 4%;
+  }
+  #mainBox {
+    height: 70%;
+  }
+}

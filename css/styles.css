@@ -1,0 +1,378 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(https://images.unsplash.com/photo-1417434743061-9873e0beaed6?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=4290d21be38c31017ff51b982c2c68f5);
+  background-size: cover;
+  background-position: center top; }
+
+#menu {
+  position: fixed;
+  bottom: .1;
+  center: 0;
+  margin: 2% 0 0 9%;
+  padding: 0;
+  width: 30%; }
+  #menu li {
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 1.5em;
+    margin-right: 3%;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: border-bottom 0.5s ease;
+    border-bottom: 1px solid transparent; }
+    #menu li:hover {
+      border-bottom: 1px solid white; }
+  #menu a {
+    color: white;
+    text-decoration: none;
+    list-style-type: none; }
+
+.section1 {
+  height: 100%; }
+  .section1 header {
+    color: white;
+    padding: 1% 0 0.05%; }
+    .section1 header .logo {
+      display: none; }
+    .section1 header #section1Nav {
+      font-family: 'Josefin Sans', sans-serif;
+      float: right;
+      margin: -14% 8% 0 0; }
+      .section1 header #section1Nav a {
+        text-decoration: none; }
+      .section1 header #section1Nav ul .email,
+      .section1 header #section1Nav ul .phone {
+        color: white;
+        padding-right: 1%;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: border-bottom 0.5s ease;
+        border-left: 2px solid transparent; }
+        .section1 header #section1Nav ul .email:hover,
+        .section1 header #section1Nav ul .phone:hover {
+          border-left: 2px solid white; }
+      .section1 header #section1Nav ul li {
+        list-style-type: none;
+        font-size: 1.5em;
+        font-weight: lighter;
+        color: black;
+        margin-bottom: 8%;
+        padding-left: 3%; }
+      .section1 header #section1Nav .twitter {
+        color: white;
+        -webkit-transition-property: color, text;
+        -webkit-transition-duration: 0.25s, 0.25s;
+        -webkit-transition-timing-function: linear, ease-in;
+        -moz-transition-property: color, text;
+        -moz-transition-duration: .25s;
+        -moz-transition-timing-function: linear, ease-in;
+        -o-transition-property: color, text;
+        -o-transition-duration: .25s;
+        -o-transition-timing-function: linear, ease-in; }
+        .section1 header #section1Nav .twitter:hover {
+          color: #5AA8DF; }
+      .section1 header #section1Nav .linkedin {
+        color: white;
+        -webkit-transition-property: color, text;
+        -webkit-transition-duration: 0.25s, 0.25s;
+        -webkit-transition-timing-function: linear, ease-in;
+        -moz-transition-property: color, text;
+        -moz-transition-duration: .25s;
+        -moz-transition-timing-function: linear, ease-in;
+        -o-transition-property: color, text;
+        -o-transition-duration: .25s;
+        -o-transition-timing-function: linear, ease-in; }
+        .section1 header #section1Nav .linkedin:hover {
+          color: #007AB9; }
+      .section1 header #section1Nav .github {
+        color: white;
+        -webkit-transition-property: color, text;
+        -webkit-transition-duration: 0.25s, 0.25s;
+        -webkit-transition-timing-function: linear, ease-in;
+        -moz-transition-property: color, text;
+        -moz-transition-duration: .25s;
+        -moz-transition-timing-function: linear, ease-in;
+        -o-transition-property: color, text;
+        -o-transition-duration: .25s;
+        -o-transition-timing-function: linear, ease-in; }
+        .section1 header #section1Nav .github:hover {
+          color: #39BFFE; }
+      .section1 header #section1Nav .facebook {
+        color: white;
+        -webkit-transition-property: color, text;
+        -webkit-transition-duration: 0.25s, 0.25s;
+        -webkit-transition-timing-function: linear, ease-in;
+        -moz-transition-property: color, text;
+        -moz-transition-duration: .25s;
+        -moz-transition-timing-function: linear, ease-in;
+        -o-transition-property: color, text;
+        -o-transition-duration: .25s;
+        -o-transition-timing-function: linear, ease-in; }
+        .section1 header #section1Nav .facebook:hover {
+          color: #2C4AAA; }
+    .section1 header h1 {
+      font-size: 6em;
+      font-weight: lighter;
+      font-family: 'Josefin Sans', sans-serif;
+      text-align: center;
+      width: 30%;
+      margin-left: 9%;
+      margin-top: 2%;
+      border-radius: 5px; }
+    .section1 header h3 {
+      font-weight: lighter;
+      font-size: 2.5em;
+      font-family: 'Josefin Sans', sans-serif;
+      text-align: center;
+      width: 30%;
+      margin: -4% 0 3% 6%;
+      border-radius: 5px; }
+    .section1 header .logo {
+      background: #A9A9A9;
+      font-family: 'Lato', sans-serif;
+      font-size: 2.5em;
+      color: white;
+      border-radius: 100%;
+      overflow: hidden; }
+
+#mainBox {
+  background: white;
+  opacity: 0.9;
+  margin: 5% auto;
+  padding: 0.5%;
+  height: 50%; }
+  #mainBox img {
+    width: 10%;
+    float: right;
+    margin: -8% 12% 0 0;
+    border-radius: 100%;
+    box-shadow: 3px 3px #F3F3F3; }
+  #mainBox p {
+    font-family: 'Open Sans', sans-serif;
+    padding: 5%;
+    width: 84%;
+    margin-left: 4%; }
+
+#aboutMe {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 4em;
+  width: 20%;
+  padding: 1%;
+  border-radius: 5px;
+  box-shadow: 3px 3px #F3F3F3;
+  margin-left: 8.5%;
+  margin-bottom: 0;
+  padding-left: 1%; }
+
+#iconList {
+  margin-left: -21%; }
+  #iconList li {
+    display: inline-block;
+    margin-right: 3%; }
+
+.section2 {
+  height: 100%;
+  background: white;
+  opacity: 0.9; }
+  .section2 #workSection1 {
+    padding: 3% 5% 5% 7%;
+    margin-top: 5%; }
+    .section2 #workSection1 .workDiv1 {
+      width: 100%;
+      margin-left: 0;
+      margin-bottom: 4%; }
+      .section2 #workSection1 .workDiv1 h1 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: lighter;
+        font-size: 4em;
+        width: 37%;
+        padding: 1%;
+        border-radius: 5px;
+        box-shadow: 3px 3px #F3F3F3;
+        margin: 0 0 23% 8.5%;
+        padding-left: 1%; }
+      .section2 #workSection1 .workDiv1 div {
+        width: 49%;
+        display: inline-block; }
+        .section2 #workSection1 .workDiv1 div a:hover {
+          background: red; }
+        .section2 #workSection1 .workDiv1 div img {
+          margin-left: 20%;
+          width: 75%; }
+    .section2 #workSection1 .workDiv2 {
+      width: 100%; }
+      .section2 #workSection1 .workDiv2 div {
+        width: 49%;
+        display: inline-block; }
+        .section2 #workSection1 .workDiv2 div img {
+          width: 75%; }
+
+.section3 {
+  height: 100%;
+  background: white;
+  opacity: 0.9; }
+  .section3 #workSection2 {
+    padding: 3% 5% 5% 7%;
+    margin-top: 5%; }
+    .section3 #workSection2 .workDiv3 {
+      width: 100%;
+      margin-left: 0;
+      margin-bottom: 4%; }
+      .section3 #workSection2 .workDiv3 div {
+        width: 49%;
+        display: inline-block; }
+        .section3 #workSection2 .workDiv3 div a:hover {
+          background: #F3F3F3; }
+        .section3 #workSection2 .workDiv3 div img {
+          margin-left: 20%;
+          width: 75%; }
+    .section3 #workSection2 .workDiv4 {
+      width: 100%; }
+      .section3 #workSection2 .workDiv4 div {
+        width: 49%;
+        display: inline-block; }
+        .section3 #workSection2 .workDiv4 div img {
+          width: 75%; }
+
+.section4 {
+  background: white;
+  opacity: 0.9; }
+  .section4 h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 4em;
+    width: 16%;
+    padding: 1%;
+    border-radius: 5px;
+    box-shadow: 3px 3px #F3F3F3;
+    margin-left: 8.5%;
+    margin-bottom: 0;
+    padding-left: 1%; }
+
+.section5 {
+  height: 100%; }
+  .section5 div {
+    padding-top: 2%; }
+    .section5 div h1 {
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: lighter;
+      font-size: 4em;
+      color: white;
+      width: 16%;
+      padding: 1%;
+      border-radius: 5px;
+      margin-left: 8.5%;
+      margin-bottom: 0;
+      padding-left: 1%; }
+    .section5 div .logo {
+      background: #A9A9A9;
+      font-family: 'Lato', sans-serif;
+      font-size: 2.5em;
+      color: white;
+      border-radius: 100%;
+      overflow: hidden; }
+    .section5 div .section5Nav {
+      font-family: 'Josefin Sans', sans-serif;
+      margin-top: 6%; }
+      .section5 div .section5Nav a {
+        text-decoration: none; }
+      .section5 div .section5Nav ul .email,
+      .section5 div .section5Nav ul .phone {
+        color: white;
+        font-size: 2.5em; }
+      .section5 div .section5Nav ul li {
+        list-style-type: none;
+        font-weight: lighter;
+        color: black;
+        margin-bottom: 2%;
+        border-radius: 4px; }
+        .section5 div .section5Nav ul li #footerIconList {
+          padding: 0;
+          font-size: 2.25em; }
+          .section5 div .section5Nav ul li #footerIconList li {
+            display: inline-block;
+            margin-right: 1%; }
+      .section5 div .section5Nav .twitter {
+        color: white;
+        -webkit-transition-property: color, text;
+        -webkit-transition-duration: 0.25s, 0.25s;
+        -webkit-transition-timing-function: linear, ease-in;
+        -moz-transition-property: color, text;
+        -moz-transition-duration: .25s;
+        -moz-transition-timing-function: linear, ease-in;
+        -o-transition-property: color, text;
+        -o-transition-duration: .25s;
+        -o-transition-timing-function: linear, ease-in; }
+        .section5 div .section5Nav .twitter:hover {
+          color: #5AA8DF; }
+      .section5 div .section5Nav .linkedin {
+        color: white;
+        -webkit-transition-property: color, text;
+        -webkit-transition-duration: 0.25s, 0.25s;
+        -webkit-transition-timing-function: linear, ease-in;
+        -moz-transition-property: color, text;
+        -moz-transition-duration: .25s;
+        -moz-transition-timing-function: linear, ease-in;
+        -o-transition-property: color, text;
+        -o-transition-duration: .25s;
+        -o-transition-timing-function: linear, ease-in; }
+        .section5 div .section5Nav .linkedin:hover {
+          color: #007AB9; }
+      .section5 div .section5Nav .github {
+        color: white;
+        -webkit-transition-property: color, text;
+        -webkit-transition-duration: 0.25s, 0.25s;
+        -webkit-transition-timing-function: linear, ease-in;
+        -moz-transition-property: color, text;
+        -moz-transition-duration: .25s;
+        -moz-transition-timing-function: linear, ease-in;
+        -o-transition-property: color, text;
+        -o-transition-duration: .25s;
+        -o-transition-timing-function: linear, ease-in; }
+        .section5 div .section5Nav .github:hover {
+          color: #39BFFE; }
+      .section5 div .section5Nav .facebook {
+        color: white;
+        -webkit-transition-property: color, text;
+        -webkit-transition-duration: 0.25s, 0.25s;
+        -webkit-transition-timing-function: linear, ease-in;
+        -moz-transition-property: color, text;
+        -moz-transition-duration: .25s;
+        -moz-transition-timing-function: linear, ease-in;
+        -o-transition-property: color, text;
+        -o-transition-duration: .25s;
+        -o-transition-timing-function: linear, ease-in; }
+        .section5 div .section5Nav .facebook:hover {
+          color: #2C4AAA; }
+  .section5 #menu2 {
+    position: fixed;
+    bottom: .1;
+    center: 0;
+    margin: -4% 0 0 3%;
+    padding: 0;
+    width: 30%; }
+    .section5 #menu2 li {
+      display: inline-block;
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: lighter;
+      font-size: 1.5em;
+      margin-right: 3%;
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      transition: border-bottom 0.5s ease;
+      border-bottom: 1px solid transparent; }
+      .section5 #menu2 li:hover {
+        border-bottom: 1px solid white; }
+    .section5 #menu2 a {
+      color: white;
+      text-decoration: none;
+      list-style-type: none; }
+
+.imgDiv:hover {
+  background: #F3F3F3; }
