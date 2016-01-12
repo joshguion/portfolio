@@ -224,75 +224,47 @@ body {
         padding: 1%;
         border-radius: 5px;
         box-shadow: 3px 3px #F3F3F3;
-        margin: 0 0 23% 8.5%;
+        margin: 0 0 23% -1%;
         padding-left: 1%;
       }
+      h2 {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: lighter;
+      }
+      p {
+        font-family: 'Open Sans', sans-serif;
+      }
+      h4 {
+        font-family: 'Josefin Sans', sans-serif;
+      }
+      .fa {
+        font-size: 1.5em;
+      }
+      ul {
+        list-style-type: none;
+        padding-left: 0;
+        li {
+          display: inline-block;
+          margin-right: 4%;
+          a {
+            color: black;
+          }
+        }
+      }
       div {
         width: 49%;
         display: inline-block;
-        a {
-          &:hover {
-            background: red;
-          }
-        }
         img {
           margin-left: 20%;
           width: 75%;
         }
       }
     }
-    .workDiv2 {
-      width: 100%;
-      div {
-        width: 49%;
-        display: inline-block;
-        img {
-          width: 75%;
-        }
-      }
-    }
   }
 }
-/////////////////////////////////////////////////section 3
-.section3 {
-  height: 100%;
-  background: white;
-  opacity: 0.9;
-  #workSection2 {
-    padding: 3% 5% 5% 7%;
-    margin-top: 5%;
-    .workDiv3 {
-      width: 100%;
-      margin-left: 0;
-      margin-bottom: 4%;
-      div {
-        width: 49%;
-        display: inline-block;
-        a {
-          &:hover {
-            background: #F3F3F3;
-          }
-        }
-        img {
-          margin-left: 20%;
-          width: 75%;
-        }
-      }
-    }
-    .workDiv4 {
-      width: 100%;
-      div {
-        width: 49%;
-        display: inline-block;
-        img {
-          width: 75%;
-        }
-      }
-    }
-  }
-}
+
 /////////////////////////////////////////////////section 4
-.section4 {
+.section3 {
   background: white;
   opacity: 0.9;
   h1 {
@@ -309,7 +281,7 @@ body {
   }
 }
 /////////////////////////////////////////////////section 5
-.section5 {
+.section4 {
   height: 100%;
   div {
     padding-top: 2%;
@@ -333,7 +305,7 @@ body {
       border-radius: 100%;
       overflow: hidden;
     }
-    .section5Nav {
+    .section4Nav {
       font-family: 'Josefin Sans', sans-serif;
       margin-top: 6%;
       a {
@@ -452,7 +424,4 @@ body {
         list-style-type: none;
       }
   }
-}
-.imgDiv:hover {
-  background: #F3F3F3;
 }
