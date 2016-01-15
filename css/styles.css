@@ -140,7 +140,7 @@ body {
 
 #mainBox {
   background: white;
-  opacity: 0.9;
+  opacity: 0.95;
   margin: 5% auto;
   padding: 0.5%;
   height: 50%; }
@@ -174,8 +174,8 @@ body {
 
 .section2 {
   height: 100%;
-  background: white;
-  opacity: 0.9; }
+  opacity: 0.95;
+  background: white; }
   .section2 #workSection1, .section2 #workSection2 {
     padding: 3% 5% 5% 7%;
     margin-top: 5%; }
@@ -235,18 +235,27 @@ body {
   cursor: pointer; }
 
 .section3 {
-  background: white;
-  opacity: 0.9; }
+  background: white; }
   .section3 h1 {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: lighter;
     font-size: 4em;
-    width: 16%;
+    width: 20%;
     padding: 1%;
     border-radius: 5px;
-    margin-left: 8.5%;
-    margin-bottom: 0;
+    margin: 0% 0 0 5%;
     padding-left: 1%; }
+    .section3 h1 span {
+      font-size: 1rem;
+      margin-left: 13%; }
+      .section3 h1 span a {
+        color: #5F5F5F; }
+  .section3 img {
+    margin: -4% 0 0 27%;
+    width: 46%;
+    padding: 2%;
+    border: 1px solid #a9a9a9;
+    box-shadow: 3px 5px #F3F3F3; }
 
 .section4 {
   height: 100%; }
