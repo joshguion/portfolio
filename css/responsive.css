@@ -114,22 +114,122 @@
     margin-top: -31%;
   }
 }
+/*********************************************    iphone 6 portrait   */
+@media (max-width:375px) {
+  .section1 {
+    background: #A9A9A9;
+    opacity: 0.9;
+  }
+  .section1 #menu {
+    display: none;
+  }
+  .section1 #fullName {
+    margin-left: 10%;
+    margin-top: -5%;
+  }
+  #iconList {
+    margin-left: 35%;
+    margin-top: -70%;
+    font-size: 1.15em;
+  }
+  #aboutMe {
+    width: 100%;
+    margin-bottom: -5%;
+    margin-top: 5%
+  }
+  #headShot {
+    display: none;
+  }
+  .section2 {
+    opacity: 0.95;
+  }
+  .section2 div {
+    display: block;
+    width: 100%;
+    height: 20%;
+  }
+  .section2 div img {
+    display: none;
+  }
+  .section2 h1 {
+    margin: 7% 18%;
+  }
+  .section2 .left h2 {
+    font-size: 1.5em;
+    padding: 7% 3%;
+  }
+}
+
+/*********************************************    iphone 5/4   */
 @media (max-width:320px) {
+  header {
+    background: #A9A9A9;
+    opacity: 0.9;
+  }
+  #menu {
+    display: none;
+  }
   #headShot {
     display: none;
   }
   #aboutMe {
     width: 77%;
+    padding-top: 5%;
+    margin-bottom: -10%;
   }
   #iconList {
-    font-size: 1em;
-    margin-top: -82%;
-    margin-left: 59%;
+    display: none;
   }
   #fullName {
-    margin-left: 4%;
+    text-align: center;
+    padding: 5%;
+    margin-left: 13%;
+    margin-bottom: -5%;
   }
   #mainBox {
     height: 70%;
+    margin: 0 auto;
   }
-}
+
+/*********************************************section 2*/
+  .section2 {
+    opacity: 0.95;
+  }
+  .section2 div {
+    display: block;
+    width: 100%;
+    height: 20%;
+  }
+  .section2 div img {
+    display: none;
+  }
+  .section2 h1 {
+    margin: 7% 18%;
+  }
+  .section2 .left h2 {
+    font-size: 1.5em;
+    padding: 7% 3%;
+  }
+/*********************************************section 3*/
+  .section3 h1 {
+    margin: -35% 0 0 18%;
+    box-shadow: 0 0;
+  }
+  .section3 img {
+    margin: 0 0 0 0;
+    width: 100%;
+  }
+  .section3 .fa-download {
+    font-size: 3em;
+    margin-left: 112%;
+  }
+/*********************************************section 4*/
+  .section4 #menu2{
+    margin: -100% 0 0 5%;
+  }
+  .section4 #footerIconList {
+    margin: -120% 0 0 60%;
+    background: #a9a9a9;
+  }
+
+} /*end 320px*/
