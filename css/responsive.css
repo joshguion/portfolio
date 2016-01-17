@@ -115,7 +115,7 @@
   }
 }
 /*********************************************    iphone 6 portrait   */
-@media (max-width:375px) {
+@media (max-width:380px) {
   .section1 {
     background: #A9A9A9;
     opacity: 0.9;
